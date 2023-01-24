@@ -7,7 +7,7 @@ class Question
     @answer = @first_num + @second_num
   end
 
-  def qestion_string
+  def question_string
     "What does #{@first_num} plus #{@second_num} equal?"
   end
 end
